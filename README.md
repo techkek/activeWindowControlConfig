@@ -3,12 +3,12 @@
 This is my custom configuration for [Active Window Control](https://github.com/KDE/plasma-active-window-control), a very useful [KDE](https://kde.org) plugin for optimizing screen space, removing the minimize, maximize or close buttons, and placing them in the KDE panel.
 ### Installation
 [Active Window Control](https://store.kde.org/p/998910) must first be installed. [AUR](https://aur.archlinux.org/packages/plasma5-applets-active-window-control-git)
-'''
+```
 cd /.local/share/plasma/plasmoids/org.kde.activeWindowControl
 sudo rm -rf *
 git clone https://github.com/techkek/activeWindowControlConfig.git
 sudo mv activeWindowControlConfig/* . && sudo rm -rf activeWindowControlConfig
-'''
+```
 ### Panel
 This configuration is part of my [KDE panel](https://github.com/techkek/kekPanel).
 ### Small screens
@@ -26,12 +26,12 @@ Questa è la mia configurazione personalizzata per [Active Window Control](https
 <br>
 ### Installazione
 Bisogna prima aver installato [Active Window Control](https://store.kde.org/p/998910) [AUR](https://aur.archlinux.org/packages/plasma5-applets-active-window-control-git)
-'''
+```
 cd /.local/share/plasma/plasmoids/org.kde.activeWindowControl
 sudo rm -rf *
 git clone https://github.com/techkek/activeWindowControlConfig.git
 sudo mv activeWindowControlConfig/* . && sudo rm -rf activeWindowControlConfig
-'''
+```
 ### Pannello
 Questa configurazione fa parte del mio [pannello di KDE](https://github.com/techkek/kekPanel).
 ### Schermi piccoli
